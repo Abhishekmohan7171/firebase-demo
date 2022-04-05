@@ -1,0 +1,25 @@
+<body>
+    <div class="container">
+
+      <div class="text">
+        <h2>Login</h2>
+      </div>
+
+      <form [formGroup]="profileForm" (submit)="addDataToDb()">
+        <label for="">Username</label>
+        <input type="text" class="inputt" name="userName" formControlName="username">
+        <br>
+        <label for="">Password</label>
+        <input type="password" name="" id="" class="inputt" name="passWord" formControlName="password">
+        <br>
+        <input type="submit" value="Log" class="btn">
+      </form>
+
+      <!-- <button (click)="addDataToDb()" style="background-color: beige;">Log</button> -->
+      
+
+    </div>
+
+  
+
+</body>

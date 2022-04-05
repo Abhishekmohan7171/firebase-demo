@@ -1,0 +1,30 @@
+
+
+.container{
+    height:60%;
+    width: 20%;
+    background-color: rgb(168, 168, 158);
+    border-radius: 5px;
+    padding: 40px;
+    /* justify-content: center; */
+}
+
+.inputt{
+    margin:10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(22, 21, 21);
+}
